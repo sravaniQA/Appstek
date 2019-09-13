@@ -1,0 +1,12 @@
+{
+    "moveDestination': "C:/Jetty_Demo/jetty-distribution-9.4.15.v20190215/webapps/Reports",
+    'catalystUrl': 'QA',
+    'emailableFolderDestination': 'D:/Jenkins/workspace/Catalyst_Protractor_US_Prod/Catalyst-Protractor/jetty-webserver/webapps',
+    prospectUrl : 'https://catalyst.qa7.lrn.com/',
+    prospectUserID : 955,
+    userCredentials: {
+      'Invalid Email': {email: 'invalidid', password: 'testpassword'},
+      'Incorrect Password': {email: 'prospect904@test.com', password: 'testpassword'},
+      'Correct UID & Pwd': {email: 'prospect249@test.com', password: 'Test@123'}
+    },
+};
